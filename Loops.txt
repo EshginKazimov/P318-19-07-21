@@ -1,0 +1,76 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		//start, end/condition, step, body
+		
+		//WHILE LOOP
+		//int i = 0;
+		
+		//while (i < 10)
+		//{			
+			//Console.WriteLine("I = " + i);	
+			//++i;
+		//}
+		
+		//DO WHILE LOOP
+		//int i = 0;
+		
+		//while (i < 0)
+		//{
+			//Console.WriteLine("I = " + i);
+			//i++;
+		//}
+		
+		//do 
+		//{
+			//Console.WriteLine("I = " + i);
+			//i++;
+		//} while (i < 5);
+		
+		//FOR LOOP
+		//int k = 0;
+		//for (int i = 0; i < 5; i++)
+		//{
+			//if (k == 0)
+			//{
+				//k++;
+			//}
+			//Console.WriteLine("I = " + i);
+			//Console.WriteLine("K = " + k);
+			//k = 0;
+		//}
+		
+		//SUM 1-100
+		//int sum = 0;
+		//for (int i = 1; i < 10; i += 2)
+		//{
+			//sum += i;			
+		//}
+		//Console.WriteLine(sum);
+		
+		//BREAK
+		//int k = 5;
+		//for (int i = 1; i < 10; i++)
+		//{
+			//if (i == k)
+			//{
+				//break;
+			//}
+			//Console.WriteLine(i);
+		//}
+		
+		//CONTINUE	
+		int k = 5;
+		for (int i = 1; i < 10; i++)
+		{
+			if (i == k)
+			{
+				continue;
+			}
+			Console.WriteLine(i);
+		}
+	}
+}

@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int count = CalculateCount(1, 10);
+		
+		Console.WriteLine(count);
+	}
+	
+	private static int CalculateCount(int start, int end)
+	{
+		int count = 0;
+		
+		for (int i = start; i < end; i++)
+		{
+			if (i % 3 == 0 && i % 4 == 0)
+			{
+				count++;				
+			}
+		}
+		
+		return count;
+	}
+}
